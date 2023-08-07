@@ -1,0 +1,74 @@
+.RestrauntItem {
+  border: 1px solid #796d6b;
+  height: 95%;
+  width: 290px;
+  display: inline-flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+
+.RestrauntItemHeading {
+  width: 94%;
+  margin-left: 3%;
+  color: white;
+  padding: 2%;
+  margin-top: 3%;
+  height: 15%;
+  background-color: #fe3f23;
+  text-transform: capitalize;
+}
+
+.RestrauntItemImage {
+  width: 94%;
+  margin-left: 3%;
+  height: 55%;
+  margin-top: -5%;
+  background-color: aqua;
+}
+
+.RestrauntItemMenu {
+  display: inline;
+  margin-top: -5%;
+  width: 94%;
+  margin-left: 3%;
+  height: 15%;
+}
+
+.MenuComponents {
+  display: inline;
+  line-height: 30px;
+}
+.Price {
+  color: #fe3f23;
+  font-weight: 900;
+  margin-left: 8%;
+}
+.Time {
+  color: #796d6b;
+  margin-left: 10%;
+}
+.Minus {
+  object-fit: contain;
+  margin-left: 10%;
+  height: 2vh;
+  cursor: pointer;
+}
+.Quantity {
+  color: white;
+  border: 1px solid #fe3f23;
+  background-color: #ffffff;
+}
+.Plus {
+  object-fit: contain;
+  height: 2vh;
+  cursor: pointer;
+}
+.Add {
+  margin-left: 10%;
+  color: white;
+  background-color: #fe3f23;
+  border-radius: 10%;
+  padding: 1%;
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.img {
+  display: block;
+  margin: 0 auto;
+}
+
+.input {
+  display: block;
+  outline: none;
+  margin: 0 auto;
+  border: 0.2vw solid silver;
+  width: 15vw;
+  height: 2.5vh;
+}
+
+.file {
+  height: 5vh;
+  margin-top: 1vh;
+  margin-left: 9vw;
+}
+.add_button {
+  background-color: #fe3f23;
+  color: white;
+  font-family: sans-serif;
+  width: 6vw;
+  height: 5vh;
+  margin-top: 0.8vh;
+  font-size: 3.1vh;
+  text-align: center;
+  border: none;
+}
+
+.add_button:hover {
+  background-color: #fd1313;
+}
+
+.errorControl {
+  color: red;
+  text-align: center;
+}

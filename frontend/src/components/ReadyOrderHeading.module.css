@@ -1,0 +1,43 @@
+.order-head {
+  width: 62vw;
+  margin-left: -1vw;
+  margin: auto;
+  margin-left: 1vw;
+  justify-content: space-evenly;
+  margin-top: 1.5vh;
+  height: 5.5vh;
+  display: flex;
+}
+
+.heading {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 5vh;
+  background: rgb(255, 102, 0);
+}
+
+.name {
+  width: 12.5vw;
+  text-align: center;
+}
+
+.odrs {
+  width: 6.5vw;
+  text-align: center;
+}
+
+.status {
+  width: 8.5vw;
+  text-align: center;
+}
+
+.email {
+  width: 16vw;
+}
+
+.total {
+  width: 5vw;
+}

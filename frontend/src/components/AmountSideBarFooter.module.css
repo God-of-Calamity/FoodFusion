@@ -1,0 +1,47 @@
+.shoppingListTotal {
+  background-color: #fe3f23;
+  color: #ffffff;
+  font-weight: 600;
+  display: flex;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.ShoppingListTotalTitle {
+  border: 1px solid white;
+  width: 70%;
+  border-radius: 5px 0px 0px 5px;
+}
+.ShoppingListTotalAmount {
+  border: 1px solid white;
+  width: 30%;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.ItemSubmitButton {
+  background-color: #fe3f23;
+  text-transform: capitalize;
+  margin-top: 10px;
+  border: 0px;
+  border-radius: 10%;
+  padding: 5px 10px 5px 10px;
+  color: #ffffff;
+}
+
+.ItemSubmitButton:disabled{
+  cursor: not-allowed;
+}
+.actionButtons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.success {
+  color: green;
+  text-align: center;
+}
+
+.failed {
+  color: red;
+  text-align: center;
+}

@@ -1,0 +1,57 @@
+.RestrauntItem {
+  border: 1px solid #796d6b;
+  height: 60%;
+  width: 25em;
+  display: inline-flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+
+.RestrauntItemHeading {
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  margin-left: 3%;
+  color: white;
+  padding: 2%;
+  margin-top: 3%;
+  height: 15%;
+  background-color: #fe3f23;
+  text-transform: capitalize;
+}
+
+.cross {
+  background-color: #faf3ecd8;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+.RestrauntItemImage {
+  width: 94%;
+  margin-left: 3%;
+  height: 11em;
+  margin-top: -2%;
+  margin-bottom: 5%;
+  background-color: aqua;
+}
+
+.RestrauntItemMenu {
+  display: flex;
+  margin-top: -5%;
+  width: 94%;
+  height: 15%;
+  justify-content: space-evenly;
+}
+
+.MenuComponents {
+  /* line-height: 0em; */
+  text-transform: capitalize;
+}
+.Price {
+  color: #fe3f23;
+  font-weight: 900;
+}
+.Time {
+  color: #796d6b;
+}

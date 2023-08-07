@@ -1,0 +1,80 @@
+.cmi {
+  margin-left: 19vw;
+  margin-top: -2vh;
+  margin-right: 0vh;
+  margin-bottom: -7vh;
+  height: 5vh;
+  width: 5vh;
+}
+
+.hr {
+  width: 10vw;
+  color: #ff7b31;
+  height: 0vh;
+  background-color: #ff7b31;
+  border: 0.5px solid #ff7b31;
+}
+
+.box {
+  width: 24vw;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 231, 218, 0.94);
+  text-align: center;
+  border: 2px solid red;
+}
+
+.inputText {
+  width: 70%;
+  height: 4vh;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.btn {
+  background: #ff7b31;
+  width: 100px;
+  height: 40px;
+  border: 0;
+  display: block;
+  margin: 12px auto;
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  padding: 0px, 5px;
+  color: white;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgba(231, 30, 3, 0.69);
+}
+
+.anchor {
+  text-decoration: none;
+}
+
+.bold {
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: rgba(87, 87, 87, 0.83);
+}
+
+.clickHere {
+  color: rgba(255, 123, 49, 1);
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-family: cursive;
+  font-size: 1.5em;
+}

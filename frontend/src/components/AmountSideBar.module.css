@@ -1,0 +1,21 @@
+.shoppingListTableMainDiv {
+  background-color: #ffffff;
+  max-height: 200px;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+  overflow-y: scroll;
+}
+
+.shoppingListTableMainDiv::-webkit-scrollbar {
+  width: 0.5vw;
+}
+
+.shoppingListTableMainDiv::-webkit-scrollbar-track {
+  background-color: #ffe7da;
+  border-radius: 18vw;
+}
+
+.shoppingListTableMainDiv::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 18vw;
+}

@@ -1,0 +1,79 @@
+.main {
+  background-image: url(../../public//images/main.png);
+  background-repeat: no-repeat;
+  background-size: 100% 170vh;
+  width: 100%;
+  height: 170vh;
+}
+
+.head {
+  width: 30vw;
+  height: 5vh;
+  position: relative;
+  top: 0vh;
+  left: 3vw;
+}
+
+.span-p2-one {
+  display: inline-block;
+  width: 25vw;
+  height: 8vh;
+  font-family: sans-serif;
+  font-size: 1.4vw;
+  color: red;
+}
+
+.restaurant-name {
+  text-transform: capitalize;
+}
+
+.orders {
+  display: flex;
+  width: 65vw;
+  height: 57vh;
+  background: #faf3ecd8;
+  border: 1px solid #d67641;
+  box-sizing: border-box;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 0.1vh solid red;
+}
+
+.order-list {
+  width: 63vw;
+  height: 47vh;
+  margin: auto;
+  margin-bottom: 2vh;
+  overflow-y: scroll;
+}
+
+.order-list::-webkit-scrollbar {
+  width: 1vh;
+}
+
+.order-list::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 1vh;
+}
+
+.order-list::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 102, 0);
+  border-radius: 1vh;
+}
+
+.in-process {
+  text-align: center;
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.noOrders {
+  color: red;
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 3em;
+}

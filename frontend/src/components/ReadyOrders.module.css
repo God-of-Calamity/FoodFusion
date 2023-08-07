@@ -1,0 +1,53 @@
+.complete {
+  margin-top: 5%;
+}
+
+.ready {
+  text-align: center;
+  color: red;
+  font-size: 2em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.orders {
+  display: flex;
+  width: 65vw;
+  height: 57vh;
+  background: #faf3ecd8;
+  border: 1px solid #d67641;
+  box-sizing: border-box;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 0.1vh solid red;
+}
+
+.order-list {
+  width: 63vw;
+  height: 47vh;
+  margin: auto;
+  margin-bottom: 1.5vh;
+  overflow-y: scroll;
+}
+
+.order-list::-webkit-scrollbar {
+  width: 1vh;
+}
+
+.order-list::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 1vh;
+}
+
+.order-list::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 102, 0);
+  border-radius: 1vh;
+}
+
+.noReady {
+  color: red;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}

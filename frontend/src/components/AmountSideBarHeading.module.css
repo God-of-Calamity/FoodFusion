@@ -1,0 +1,38 @@
+.shoppingListTitle {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+  margin-bottom: 0%;
+}
+
+.breakStyle {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.shoppingListTableHeadingDiv {
+  background-color: #fe3f23;
+  color: #ffffff;
+  font-weight: 600;
+  display: flex;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.HeadingA {
+  padding: 5px;
+  border-radius: 20px 0px 0px 0px;
+  border: 1px solid white;
+  width: 45%;
+}
+
+.HeadingB {
+  border: 1px solid white;
+  padding: 5px;
+  width: 20%;
+}
+
+.HeadingC {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 0px 20px 0px 0px;
+  width: 35%;
+}

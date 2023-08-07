@@ -1,0 +1,131 @@
+.main {
+  background-image: url(../../public//images/main.png);
+  background-repeat: no-repeat;
+  background-size: 100% 80vh;
+  width: 100%;
+  height: 80vh;
+}
+
+.head {
+  width: 30vw;
+  height: 5vh;
+  position: relative;
+  top: 0vh;
+  left: 3vw;
+}
+
+.span-p2-one {
+  display: inline-block;
+  width: 25vw;
+  height: 8vh;
+  font-family: sans-serif;
+  font-size: 1.4vw;
+  color: red;
+}
+
+.restaurant-name {
+  text-transform: capitalize;
+}
+
+.staffs {
+  width: 55vw;
+  height: 57vh;
+  background: #faf3ecd8;
+  border: 1px solid #d67641;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 0.1vh solid red;
+}
+
+.staff-head {
+  width: 52vw;
+  margin-top: 1.5vh;
+  height: 5.5vh;
+  display: flex;
+}
+
+.heading {
+  font-family: "Lato";
+  margin-left: 1vw;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 5vh;
+  background: rgb(255, 102, 0);
+}
+
+.name {
+  width: 12.5vw;
+  text-align: center;
+}
+
+.email {
+  width: 26vw;
+  text-align: center;
+}
+
+.staff-list {
+  width: 52vw;
+  height: 47vh;
+  margin: auto;
+  margin-bottom: 1.5vh;
+  overflow-y: scroll;
+}
+
+.staff-list::-webkit-scrollbar {
+  width: 1vh;
+}
+
+.staff-list::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 1vh;
+}
+
+.staff-list::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 102, 0);
+  border-radius: 1vh;
+}
+
+.add-btn-cl {
+  width: 55vw;
+  margin: auto;
+}
+.add_new {
+  width: 12vw;
+  height: 5vh;
+  margin-top: 1vh;
+  margin-left: 43vw;
+  background-color: #00d179;
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-family: "Lato", sans-serif;
+  border-radius: 1.4vw;
+  line-height: 4.8vh;
+}
+
+.add_new:hover {
+  background-color: green;
+}
+
+.add_new a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.add_new a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.noStaff {
+  color: red;
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 3em;
+}

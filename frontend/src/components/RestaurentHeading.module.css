@@ -1,0 +1,17 @@
+.RestrauntName {
+  color: #fe3f23;
+  margin-top: 0;
+  margin-left: 0.5vw;
+  font-size: 4vh;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.breakStyle {
+  width: 80%;
+  margin-left: auto;
+  margin-top: 0;
+  border-color: #fe3f23;
+  border-style: solid;
+}

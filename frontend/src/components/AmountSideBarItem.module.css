@@ -1,0 +1,36 @@
+.shoppingListTableDiv {
+  width: 100%;
+  display: flex;
+}
+
+.ItemA {
+  border: 1px solid #f8d7c8;
+  width: 10%;
+  padding: 5px;
+  text-transform: capitalize;
+  overflow: hidden;
+}
+
+.ItemB {
+  border: 1px solid #f8d7c8;
+  width: 34%;
+  padding: 5px;
+  text-transform: capitalize;
+  overflow: hidden;
+}
+
+.ItemC {
+  border: 1px solid #f8d7c8;
+  width: 21%;
+  padding: 5px;
+  text-transform: capitalize;
+  overflow: hidden;
+}
+
+.ItemD {
+  border: 1px solid #f8d7c8;
+  padding: 5px;
+  width: 35%;
+  text-transform: capitalize;
+  overflow: hidden;
+}
